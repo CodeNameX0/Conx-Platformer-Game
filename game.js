@@ -22,8 +22,8 @@ const player = {
     height: 35,
     velX: 0,
     velY: 0,
-    speed: 8, // 속도 증가
-    jumpPower: 18, // 점프력 증가
+    speed: 12, // 속도 증가 8 → 12
+    jumpPower: 22, // 점프력 증가 (이동 속도에 맞춤)
     grounded: false,
     color: '#ff6b6b'
 };
@@ -581,8 +581,8 @@ function updatePlayer() {
         player.grounded = false;
     }
 
-    // 중력 적용 (더 현실적으로)
-    player.velY += 0.6;
+    // 중력 적용 (이동 속도에 맞춰 조정)
+    player.velY += 0.75;
 
     // 공기 저항 (수평 이동 감속)
     player.velX *= 0.85;
