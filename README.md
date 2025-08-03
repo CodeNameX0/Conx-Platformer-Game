@@ -1,4 +1,4 @@
-# [플랫포머 게임(https://codenamex0.github.io/Conx-Platformer-Game/)]
+# [플랫포머 게임](https://codenamex0.github.io/Conx-Platformer-Game/)
 
 HTML5 Canvas와 바닐라 JavaScript로 제작된 도전적인 2D 플랫포머 게임입니다.
 
