@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#gameCanvas {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background: #87CEEB;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+.controls {
+    margin-top: 20px;
+    color: white;
+}
+
+.controls p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#restartBtn {
+    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+#restartBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+}
+
+#restartBtn:active {
+    transform: translateY(0);
+}
+
+.score {
+    margin-top: 15px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#score {
+    color: #ffdd59;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
